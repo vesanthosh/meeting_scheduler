@@ -2,7 +2,7 @@
   "name": "meeting_scheduler",
   "version": "1.0.0",
   "description": "Meeting scheduler",
-  "main": "scheduler.js",
+  "main": "schedule_meeting.js",
   "scripts": {
     "test": "jest",
     "start": "node schedule_meeting.js ./meeting_input.txt"
