@@ -1,0 +1,22 @@
+{
+  "name": "meeting_scheduler",
+  "version": "1.0.0",
+  "description": "Meeting scheduler",
+  "main": "scheduler.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vesanthosh/meeting_scheduler.git"
+  },
+  "author": "Santhosh Venkatesan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vesanthosh/meeting_scheduler/issues"
+  },
+  "homepage": "https://github.com/vesanthosh/meeting_scheduler#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
