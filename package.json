@@ -4,7 +4,8 @@
   "description": "Meeting scheduler",
   "main": "scheduler.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node schedule_meeting.js ./meeting_input.txt"
   },
   "repository": {
     "type": "git",
