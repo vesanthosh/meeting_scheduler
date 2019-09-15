@@ -3,7 +3,7 @@ function wrapUp(day_start_time, day_end_time, slots_in_a_day) {
     var finalized_schedule = [];
     // Wrap up the mesh and organize the schedule
     for (let j = 0; j < slots_in_a_day.length; j++) {
-        // Only get the slots assigned in a day. If the values of an array is "undefined", then skip the index with if statement.
+        // Only get the slots assigned in a day. If the values of an array is "undefined", then skip the index with the following if statement.
         if (slots_in_a_day[j] != undefined) {
             // Set meeting start time
             var meeting_start_time = new Date(slots_in_a_day[j].meeting_slot);

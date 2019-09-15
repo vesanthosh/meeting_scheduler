@@ -3,7 +3,11 @@ const isSlotAvailable = require('./isSlotAvailable');
 const getMeetingIndex = require('./getMeetingIndex');
 
 function fillArrayWithTimeSlots(meeting_date, day_start_time, number_of_slots_in_a_day, meeting_requests) {
-    // Initialze empty arrays to store results
+
+    /**
+     * 1. Initially, it will create an empty array with number of slots available for the day.
+     * 2. Each slot weight is 30mins -If the meeting needs 1hr, then number of slots needed is 2 (ie.,30min * 2 = 1hr).
+     */
     var slots_in_a_day = new Array(number_of_slots_in_a_day);
 
     for (let j = 0; j < meeting_requests.length; j++) {
