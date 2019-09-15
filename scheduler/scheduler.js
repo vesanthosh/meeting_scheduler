@@ -77,11 +77,11 @@ function scheduler(input_file_content) {
         // Pass "scheduled_slots_in_a_day" to the wrap up function which clears the empty slots in a day, check whether the meeting is within the office hours and structure the results
         const schedules = wrapUp(day_start_time, day_end_time, scheduled_slots_in_a_day);
         if (schedules.length > 0) {
-        finalized_meeting_schedules.push({
-            date: sorted_meeting_date[i],
-            schedule: schedules
-        });
-    }
+            finalized_meeting_schedules.push({
+                date: sorted_meeting_date[i],
+                schedule: schedules
+            });
+        }
     }
     // return json like format meeting schedules
     return finalized_meeting_schedules;
