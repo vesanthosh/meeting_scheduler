@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Make sure you have Git installed on your computer and clone the repository and navigate into the folder.
+1. Make sure you have Node.js, GIT and NPM installed on your computer and clone the repository and navigate into the folder.
 ```bash
 > git clone https://github.com/vesanthosh/meeting_scheduler.git
 > cd meeting_scheduler/
